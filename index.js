@@ -15,7 +15,7 @@ const fetchData = async (searchTerm) => {
 let leftMovie;
 let rightMovie;
 const onMovieSelect = async (movie,summaryTarget,side) => {
-  const response = await axios.get("http://www.omdbapi.com/", {
+  const response = await axios.get("https://www.omdbapi.com/", {
     params: {
       apikey: "a246fc2",
       i: movie.imdbID,
