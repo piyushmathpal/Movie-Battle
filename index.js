@@ -1,4 +1,5 @@
 // if(process.env)
+console.log("FDeployed at 19:20");
 const fetchData = async (searchTerm) => {
   const response = await axios.get("https://www.omdbapi.com/", {
     params: {
